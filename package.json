@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^13.14.2",
+    "cypress-plugin-api": "^2.11.2",
     "express": "^4.21.0",
     "nodemon": "^3.1.5",
     "uuid": "^10.0.0"
