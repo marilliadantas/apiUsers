@@ -1,5 +1,5 @@
 describe("/users POST", () => {
-  it("Deve obter os usuários", () => {
+  it("Deve adicionar um novo usuário", () => {
     const user = {
       firstname: "Victor",
       lastname: "Oliveira",

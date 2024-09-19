@@ -1,5 +1,5 @@
 describe("/users DELETE", () => {
-  it("Deve obter os usuários", () => {
+  it("Tentativa de deletar um usuário inválido", () => {
     const idInvalido = "66e18f57409f8ed43da63dcc";
 
     cy.deleteUserID(idInvalido).then((response) => {
